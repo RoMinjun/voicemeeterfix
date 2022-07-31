@@ -1,11 +1,12 @@
 Out-Null
 
-#Check whether voicemeeter*.exe is running
+#Check whether audiodg is running, if not, start it
 IF (!(ps audiodg))
 {
     echo "audiodg is not running.. Starting.."
     start -f C:\Windows\System32\audiodg.exe
 }
+#Check whether voicemeeter*.exe is running
 ELSEIF (!(ps voicemeeter*))
 {
     echo "Voicemeeter is not running.."

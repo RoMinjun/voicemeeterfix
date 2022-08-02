@@ -28,7 +28,6 @@ iwr -uri https://raw.githubusercontent.com/RoMinjun/voicemeeterfix/main/voicemee
 <br>
 
 **3. Running script** <br>
-This command 
 ```powershell
 .$env:USERPROFILE\Desktop\voicemeeterfix.ps1 -v
 ```

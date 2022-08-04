@@ -7,7 +7,7 @@ https://www.youtube.com/watch?v=71HrZfR_Fro
 <br>
 
 # Step by step instruction #
-**Downloading the script and running it via Powershell (GUI yet to be added)**
+**Downloading the script and running it via Powershell (Watch the vid in intro for GUI version)**
 
 <details>
   <summary>

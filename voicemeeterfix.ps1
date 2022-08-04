@@ -7,7 +7,7 @@ IF (!(ps audiodg))
     start -f C:\Windows\System32\audiodg.exe
 }
 #Check whether voicemeeter*.exe is running
-ELSEIF (!(ps voicemeeter*))
+IF (!(ps voicemeeter*))
 {
     echo "Voicemeeter is not running.."
     echo "Please start voicemeeter and run script again.."
